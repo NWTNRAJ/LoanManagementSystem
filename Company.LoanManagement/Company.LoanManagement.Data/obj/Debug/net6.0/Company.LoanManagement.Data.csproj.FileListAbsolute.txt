@@ -1,0 +1,16 @@
+D:\MyProject\C#\LoanManagementSystem\Company.LoanManagement\Company.LoanManagement.Data\bin\Debug\net6.0\Company.LoanManagement.Data.deps.json
+D:\MyProject\C#\LoanManagementSystem\Company.LoanManagement\Company.LoanManagement.Data\bin\Debug\net6.0\Company.LoanManagement.Data.dll
+D:\MyProject\C#\LoanManagementSystem\Company.LoanManagement\Company.LoanManagement.Data\bin\Debug\net6.0\Company.LoanManagement.Data.pdb
+D:\MyProject\C#\LoanManagementSystem\Company.LoanManagement\Company.LoanManagement.Data\bin\Debug\net6.0\Company.LoanManagement.Domain.dll
+D:\MyProject\C#\LoanManagementSystem\Company.LoanManagement\Company.LoanManagement.Data\bin\Debug\net6.0\Company.LoanManagement.Domain.pdb
+D:\MyProject\C#\LoanManagementSystem\Company.LoanManagement\Company.LoanManagement.Data\obj\Debug\net6.0\Company.LoanManagement.Data.csproj.AssemblyReference.cache
+D:\MyProject\C#\LoanManagementSystem\Company.LoanManagement\Company.LoanManagement.Data\obj\Debug\net6.0\Company.LoanManagement.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProject\C#\LoanManagementSystem\Company.LoanManagement\Company.LoanManagement.Data\obj\Debug\net6.0\Company.LoanManagement.Data.AssemblyInfoInputs.cache
+D:\MyProject\C#\LoanManagementSystem\Company.LoanManagement\Company.LoanManagement.Data\obj\Debug\net6.0\Company.LoanManagement.Data.AssemblyInfo.cs
+D:\MyProject\C#\LoanManagementSystem\Company.LoanManagement\Company.LoanManagement.Data\obj\Debug\net6.0\Company.LoanManagement.Data.csproj.CoreCompileInputs.cache
+D:\MyProject\C#\LoanManagementSystem\Company.LoanManagement\Company.LoanManagement.Data\obj\Debug\net6.0\Company.LoanManagement.Data.sourcelink.json
+D:\MyProject\C#\LoanManagementSystem\Company.LoanManagement\Company.LoanManagement.Data\obj\Debug\net6.0\Company..37F18380.Up2Date
+D:\MyProject\C#\LoanManagementSystem\Company.LoanManagement\Company.LoanManagement.Data\obj\Debug\net6.0\Company.LoanManagement.Data.dll
+D:\MyProject\C#\LoanManagementSystem\Company.LoanManagement\Company.LoanManagement.Data\obj\Debug\net6.0\refint\Company.LoanManagement.Data.dll
+D:\MyProject\C#\LoanManagementSystem\Company.LoanManagement\Company.LoanManagement.Data\obj\Debug\net6.0\Company.LoanManagement.Data.pdb
+D:\MyProject\C#\LoanManagementSystem\Company.LoanManagement\Company.LoanManagement.Data\obj\Debug\net6.0\ref\Company.LoanManagement.Data.dll

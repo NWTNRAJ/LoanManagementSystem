@@ -1,0 +1,12 @@
+D:\MyProject\C#\LoanManagementSystem\Company.LoanManagement\Company.LoanManagement.Domain\bin\Debug\net6.0\Company.LoanManagement.Domain.deps.json
+D:\MyProject\C#\LoanManagementSystem\Company.LoanManagement\Company.LoanManagement.Domain\bin\Debug\net6.0\Company.LoanManagement.Domain.dll
+D:\MyProject\C#\LoanManagementSystem\Company.LoanManagement\Company.LoanManagement.Domain\bin\Debug\net6.0\Company.LoanManagement.Domain.pdb
+D:\MyProject\C#\LoanManagementSystem\Company.LoanManagement\Company.LoanManagement.Domain\obj\Debug\net6.0\Company.LoanManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProject\C#\LoanManagementSystem\Company.LoanManagement\Company.LoanManagement.Domain\obj\Debug\net6.0\Company.LoanManagement.Domain.AssemblyInfoInputs.cache
+D:\MyProject\C#\LoanManagementSystem\Company.LoanManagement\Company.LoanManagement.Domain\obj\Debug\net6.0\Company.LoanManagement.Domain.AssemblyInfo.cs
+D:\MyProject\C#\LoanManagementSystem\Company.LoanManagement\Company.LoanManagement.Domain\obj\Debug\net6.0\Company.LoanManagement.Domain.csproj.CoreCompileInputs.cache
+D:\MyProject\C#\LoanManagementSystem\Company.LoanManagement\Company.LoanManagement.Domain\obj\Debug\net6.0\Company.LoanManagement.Domain.sourcelink.json
+D:\MyProject\C#\LoanManagementSystem\Company.LoanManagement\Company.LoanManagement.Domain\obj\Debug\net6.0\Company.LoanManagement.Domain.dll
+D:\MyProject\C#\LoanManagementSystem\Company.LoanManagement\Company.LoanManagement.Domain\obj\Debug\net6.0\refint\Company.LoanManagement.Domain.dll
+D:\MyProject\C#\LoanManagementSystem\Company.LoanManagement\Company.LoanManagement.Domain\obj\Debug\net6.0\Company.LoanManagement.Domain.pdb
+D:\MyProject\C#\LoanManagementSystem\Company.LoanManagement\Company.LoanManagement.Domain\obj\Debug\net6.0\ref\Company.LoanManagement.Domain.dll
