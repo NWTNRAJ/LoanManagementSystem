@@ -2,7 +2,7 @@
 using Company.LoanManagement.Domain.Entities;
 using Company.LoanManagement.Domain.Interfaces;
 using System.Data;
-
+ 
 namespace Company.LoanManagement.Business.Services
 {
     public class CustomerService : ICustomerService
