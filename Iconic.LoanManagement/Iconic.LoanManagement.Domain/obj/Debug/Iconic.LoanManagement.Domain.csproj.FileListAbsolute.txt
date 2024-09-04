@@ -1,0 +1,6 @@
+D:\MyProject\C#\ICONIC\Iconic.LoanManagement\Iconic.LoanManagement.Domain\bin\Debug\Iconic.LoanManagement.Domain.dll
+D:\MyProject\C#\ICONIC\Iconic.LoanManagement\Iconic.LoanManagement.Domain\bin\Debug\Iconic.LoanManagement.Domain.pdb
+D:\MyProject\C#\ICONIC\Iconic.LoanManagement\Iconic.LoanManagement.Domain\obj\Debug\Iconic.LoanManagement.Domain.csproj.AssemblyReference.cache
+D:\MyProject\C#\ICONIC\Iconic.LoanManagement\Iconic.LoanManagement.Domain\obj\Debug\Iconic.LoanManagement.Domain.csproj.CoreCompileInputs.cache
+D:\MyProject\C#\ICONIC\Iconic.LoanManagement\Iconic.LoanManagement.Domain\obj\Debug\Iconic.LoanManagement.Domain.dll
+D:\MyProject\C#\ICONIC\Iconic.LoanManagement\Iconic.LoanManagement.Domain\obj\Debug\Iconic.LoanManagement.Domain.pdb

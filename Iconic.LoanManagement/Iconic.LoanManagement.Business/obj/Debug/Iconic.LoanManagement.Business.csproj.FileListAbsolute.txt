@@ -1,0 +1,13 @@
+D:\MyProject\C#\ICONIC\Iconic.LoanManagement\Iconic.LoanManagement.Business\bin\Debug\Iconic.LoanManagement.Business.dll
+D:\MyProject\C#\ICONIC\Iconic.LoanManagement\Iconic.LoanManagement.Business\bin\Debug\Iconic.LoanManagement.Business.pdb
+D:\MyProject\C#\ICONIC\Iconic.LoanManagement\Iconic.LoanManagement.Business\bin\Debug\Iconic.LoanManagement.Data.dll
+D:\MyProject\C#\ICONIC\Iconic.LoanManagement\Iconic.LoanManagement.Business\bin\Debug\Iconic.LoanManagement.Domain.dll
+D:\MyProject\C#\ICONIC\Iconic.LoanManagement\Iconic.LoanManagement.Business\bin\Debug\Iconic.LoanManagement.Data.pdb
+D:\MyProject\C#\ICONIC\Iconic.LoanManagement\Iconic.LoanManagement.Business\bin\Debug\Iconic.LoanManagement.Domain.pdb
+D:\MyProject\C#\ICONIC\Iconic.LoanManagement\Iconic.LoanManagement.Business\obj\Debug\Iconic.LoanManagement.Business.csproj.AssemblyReference.cache
+D:\MyProject\C#\ICONIC\Iconic.LoanManagement\Iconic.LoanManagement.Business\obj\Debug\Iconic.LoanManagement.Business.csproj.CoreCompileInputs.cache
+D:\MyProject\C#\ICONIC\Iconic.LoanManagement\Iconic.LoanManagement.Business\obj\Debug\Iconic.L.1DB63E33.Up2Date
+D:\MyProject\C#\ICONIC\Iconic.LoanManagement\Iconic.LoanManagement.Business\obj\Debug\Iconic.LoanManagement.Business.dll
+D:\MyProject\C#\ICONIC\Iconic.LoanManagement\Iconic.LoanManagement.Business\obj\Debug\Iconic.LoanManagement.Business.pdb
+D:\MyProject\C#\ICONIC\Iconic.LoanManagement\Iconic.LoanManagement.Business\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\MyProject\C#\ICONIC\Iconic.LoanManagement\Iconic.LoanManagement.Business\bin\Debug\Microsoft.AspNet.Identity.Core.xml

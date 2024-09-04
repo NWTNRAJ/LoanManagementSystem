@@ -1,0 +1,9 @@
+D:\MyProject\C#\ICONIC\Iconic.LoanManagement\Iconic.LoanManagement.Data\bin\Debug\Iconic.LoanManagement.Data.dll
+D:\MyProject\C#\ICONIC\Iconic.LoanManagement\Iconic.LoanManagement.Data\bin\Debug\Iconic.LoanManagement.Data.pdb
+D:\MyProject\C#\ICONIC\Iconic.LoanManagement\Iconic.LoanManagement.Data\bin\Debug\Iconic.LoanManagement.Domain.dll
+D:\MyProject\C#\ICONIC\Iconic.LoanManagement\Iconic.LoanManagement.Data\bin\Debug\Iconic.LoanManagement.Domain.pdb
+D:\MyProject\C#\ICONIC\Iconic.LoanManagement\Iconic.LoanManagement.Data\obj\Debug\Iconic.LoanManagement.Data.csproj.AssemblyReference.cache
+D:\MyProject\C#\ICONIC\Iconic.LoanManagement\Iconic.LoanManagement.Data\obj\Debug\Iconic.LoanManagement.Data.csproj.CoreCompileInputs.cache
+D:\MyProject\C#\ICONIC\Iconic.LoanManagement\Iconic.LoanManagement.Data\obj\Debug\Iconic.L.69173C23.Up2Date
+D:\MyProject\C#\ICONIC\Iconic.LoanManagement\Iconic.LoanManagement.Data\obj\Debug\Iconic.LoanManagement.Data.dll
+D:\MyProject\C#\ICONIC\Iconic.LoanManagement\Iconic.LoanManagement.Data\obj\Debug\Iconic.LoanManagement.Data.pdb

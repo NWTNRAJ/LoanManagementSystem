@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.34929.205
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{018F4BD5-AB95-4906-B759-FC0F62D0A7C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{128B24DF-8138-4B08-AE63-942996AAC02E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iconic.LoanManagement.WinUI", "Iconic.LoanManagement.WinUI\Iconic.LoanManagement.WinUI.csproj", "{A86B313C-CB2D-465B-B4A9-1EFD2088356D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iconic.LoanManagement.Business", "Iconic.LoanManagement.Business\Iconic.LoanManagement.Business.csproj", "{06B14D7D-AEF6-433D-9468-17F17F625942}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iconic.LoanManagement.Domain", "Iconic.LoanManagement.Domain\Iconic.LoanManagement.Domain.csproj", "{69E98B2D-A069-49FA-A6A9-1D339A9902D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iconic.LoanManagement.Data", "Iconic.LoanManagement.Data\Iconic.LoanManagement.Data.csproj", "{D6263C1E-A73F-4375-A80A-CA258E77660D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A86B313C-CB2D-465B-B4A9-1EFD2088356D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A86B313C-CB2D-465B-B4A9-1EFD2088356D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A86B313C-CB2D-465B-B4A9-1EFD2088356D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A86B313C-CB2D-465B-B4A9-1EFD2088356D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06B14D7D-AEF6-433D-9468-17F17F625942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06B14D7D-AEF6-433D-9468-17F17F625942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06B14D7D-AEF6-433D-9468-17F17F625942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06B14D7D-AEF6-433D-9468-17F17F625942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69E98B2D-A069-49FA-A6A9-1D339A9902D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69E98B2D-A069-49FA-A6A9-1D339A9902D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69E98B2D-A069-49FA-A6A9-1D339A9902D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69E98B2D-A069-49FA-A6A9-1D339A9902D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6263C1E-A73F-4375-A80A-CA258E77660D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6263C1E-A73F-4375-A80A-CA258E77660D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6263C1E-A73F-4375-A80A-CA258E77660D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6263C1E-A73F-4375-A80A-CA258E77660D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A86B313C-CB2D-465B-B4A9-1EFD2088356D} = {018F4BD5-AB95-4906-B759-FC0F62D0A7C4}
+		{06B14D7D-AEF6-433D-9468-17F17F625942} = {018F4BD5-AB95-4906-B759-FC0F62D0A7C4}
+		{69E98B2D-A069-49FA-A6A9-1D339A9902D9} = {018F4BD5-AB95-4906-B759-FC0F62D0A7C4}
+		{D6263C1E-A73F-4375-A80A-CA258E77660D} = {018F4BD5-AB95-4906-B759-FC0F62D0A7C4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F8C366F-AB65-42E0-8FD5-AE8423BB1A24}
+	EndGlobalSection
+EndGlobal
