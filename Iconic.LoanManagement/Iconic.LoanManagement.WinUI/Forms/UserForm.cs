@@ -58,7 +58,7 @@ namespace Iconic.LoanManagement.WinUI.Forms
                     UserID = Convert.ToInt32(DgvUserList.CurrentRow.Cells[0].Value),
                     UserName = TxtUsername.Text,
                     PasswordHash = TxtPassword.Text,
-                    UserRole = CmbRole.SelectedText,
+                    UserRole = CmbRole.SelectedItem.ToString(),
                 };
                 _userService.InsertUser(user);
                 MessageBox.Show("User updated successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -80,7 +80,20 @@ namespace Iconic.LoanManagement.WinUI.Forms
         #region Click
         private void BtnRegister_Click(object sender, EventArgs e)
         {
-            RegisterUser();
+            if (BtnRegister.Text == "Register")
+            {
+                RegisterUser();
+                TxtUsername.Focus();
+            }
+            else if (BtnRegister.Text == "Update")
+            {
+                UpdateUser();
+                TxtUsername.Focus();
+
+                // Change the Register button text to Register after update.
+                BtnRegister.Text = "Register";
+                BtnRegister.BackColor = Color.DarkCyan;
+            }
             ClearFormData();
             GetAllUsers();
         }
@@ -112,12 +125,33 @@ namespace Iconic.LoanManagement.WinUI.Forms
             }
         }
         #endregion
+        #region KeyPress
+        private void TxtUsername_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Check if the pressed key is not a letter, a control key(backspace)
+            if (!char.IsLetter(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                // If It's not a valid character, suppress the keypress.
+                e.Handled = true;
+            }
+        }
+        private void TxtPassword_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+            if (!char.IsLetter(e.KeyChar) && !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar) && e.KeyChar != '@')
+            {
+                e.Handled = true;
+            }
+        }
+        #endregion
         #region CellDoubleClick
         private void DgvUserList_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
+            // Change the Register button text and color for update.
             BtnRegister.Text = "Update";
             BtnRegister.BackColor = Color.FromArgb(45, 156, 219);
 
+            // Fill the textbox selected row data
             if (DgvUserList.CurrentRow != null)
             {
                 TxtUsername.Text = DgvUserList.CurrentRow.Cells["UserName"].Value.ToString();

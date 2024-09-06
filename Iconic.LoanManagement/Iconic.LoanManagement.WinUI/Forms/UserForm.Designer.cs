@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
             this.CmbRole = new System.Windows.Forms.ComboBox();
@@ -74,7 +74,7 @@
             this.label6.Location = new System.Drawing.Point(324, 33);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(35, 19);
-            this.label6.TabIndex = 11;
+            this.label6.TabIndex = 9;
             this.label6.Text = "Role";
             // 
             // CmbRole
@@ -89,7 +89,7 @@
             this.CmbRole.Margin = new System.Windows.Forms.Padding(0, 4, 10, 10);
             this.CmbRole.Name = "CmbRole";
             this.CmbRole.Size = new System.Drawing.Size(147, 25);
-            this.CmbRole.TabIndex = 10;
+            this.CmbRole.TabIndex = 3;
             this.CmbRole.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CmbRole_KeyDown);
             // 
             // TxtPassword
@@ -99,8 +99,9 @@
             this.TxtPassword.Margin = new System.Windows.Forms.Padding(0, 4, 10, 10);
             this.TxtPassword.Name = "TxtPassword";
             this.TxtPassword.Size = new System.Drawing.Size(150, 25);
-            this.TxtPassword.TabIndex = 9;
+            this.TxtPassword.TabIndex = 2;
             this.TxtPassword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtPassword_KeyDown);
+            this.TxtPassword.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtPassword_KeyPress);
             // 
             // label5
             // 
@@ -115,13 +116,16 @@
             // 
             // TxtUsername
             // 
+            this.TxtUsername.AcceptsReturn = true;
+            this.TxtUsername.AllowDrop = true;
             this.TxtUsername.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtUsername.Location = new System.Drawing.Point(8, 56);
             this.TxtUsername.Margin = new System.Windows.Forms.Padding(10, 4, 10, 10);
             this.TxtUsername.Name = "TxtUsername";
             this.TxtUsername.Size = new System.Drawing.Size(150, 25);
-            this.TxtUsername.TabIndex = 7;
+            this.TxtUsername.TabIndex = 1;
             this.TxtUsername.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtUsername_KeyDown);
+            this.TxtUsername.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtUsername_KeyPress);
             // 
             // label4
             // 
@@ -131,7 +135,7 @@
             this.label4.Location = new System.Drawing.Point(4, 33);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(71, 19);
-            this.label4.TabIndex = 3;
+            this.label4.TabIndex = 7;
             this.label4.Text = "Username";
             // 
             // groupBox2
@@ -154,23 +158,23 @@
             // 
             this.DgvUserList.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.DgvUserList.BackgroundColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.DarkSlateGray;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.DarkSlateGray;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DgvUserList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.DarkSlateGray;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.DarkSlateGray;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgvUserList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.DgvUserList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.LightGray;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DgvUserList.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.LightGray;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DgvUserList.DefaultCellStyle = dataGridViewCellStyle8;
             this.DgvUserList.EnableHeadersVisualStyles = false;
             this.DgvUserList.Location = new System.Drawing.Point(8, 31);
             this.DgvUserList.Margin = new System.Windows.Forms.Padding(5);
@@ -179,7 +183,7 @@
             this.DgvUserList.RowHeadersVisible = false;
             this.DgvUserList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.DgvUserList.Size = new System.Drawing.Size(467, 170);
-            this.DgvUserList.TabIndex = 0;
+            this.DgvUserList.TabIndex = 6;
             this.DgvUserList.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvUserList_CellDoubleClick);
             // 
             // BtnRegister
@@ -193,7 +197,7 @@
             this.BtnRegister.Margin = new System.Windows.Forms.Padding(0, 5, 10, 10);
             this.BtnRegister.Name = "BtnRegister";
             this.BtnRegister.Size = new System.Drawing.Size(100, 35);
-            this.BtnRegister.TabIndex = 2;
+            this.BtnRegister.TabIndex = 4;
             this.BtnRegister.Text = "Register";
             this.BtnRegister.UseVisualStyleBackColor = false;
             this.BtnRegister.Click += new System.EventHandler(this.BtnRegister_Click);
@@ -209,7 +213,7 @@
             this.BtnCancel.Margin = new System.Windows.Forms.Padding(10, 5, 10, 10);
             this.BtnCancel.Name = "BtnCancel";
             this.BtnCancel.Size = new System.Drawing.Size(100, 35);
-            this.BtnCancel.TabIndex = 3;
+            this.BtnCancel.TabIndex = 5;
             this.BtnCancel.Text = "Cancel";
             this.BtnCancel.UseVisualStyleBackColor = false;
             this.BtnCancel.Click += new System.EventHandler(this.BtnCancel_Click);

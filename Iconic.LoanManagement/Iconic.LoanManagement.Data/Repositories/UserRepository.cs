@@ -1,7 +1,6 @@
 ﻿using Iconic.LoanManagement.Data.DbContext;
 using Iconic.LoanManagement.Domain.Entities;
 using Iconic.LoanManagement.Domain.Interfaces;
-using System;
 using System.Collections.Generic;
 using System.Data;
 
@@ -25,7 +24,14 @@ namespace Iconic.LoanManagement.Data.Repositories
         }
         public long UpdateUser(Users users)
         {
-            throw new NotImplementedException();
+            Dictionary<string, object> updateParameters = new Dictionary<string, object>()
+            {
+                {"@ID", users.UserID },
+                {"@Username", users.UserName },
+                {"@PasswordHash", users.PasswordHash},
+                {"@UserRole", users.UserRole }
+            };
+            return AppDbContext.Update("uspUpdateUser", updateParameters);
         }
     }
 }
